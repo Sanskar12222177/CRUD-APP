@@ -21,3 +21,7 @@ const usersSchema = mongoose.Schema({
 })
 
 export const user = mongoose.model('Users', usersSchema);
+
+// git add .
+// git commit -m "Users details"
+// git push
