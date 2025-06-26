@@ -17,3 +17,14 @@ export const createTodo = async (req, res) => {
 //read a todo
 //update
 //delete
+
+//create
+// export const createTodo = () => {}
+//read all
+export const getTodo = () => {}
+//read one
+export const getTodoByID = () => {}
+//delete
+export const deleteTodo = () => {}
+//update
+export const updateTodo = () => {}

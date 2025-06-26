@@ -3,7 +3,8 @@ const app = express();
 import todoRoutes from "./routes/todoRoutes.js"
 
 app.use(express.json());
+app.use(express.urlencoded());
 
-app.use('/api/v1/todos', todoRoutes)
+app.use('/api/v1/todos', todoRoutes);
 
 export default app;
